@@ -1,3 +1,5 @@
+# Installing Java
+
 #!/bin/bash
 # For Ubuntu 22.04
 # Intsalling Java
