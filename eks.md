@@ -29,3 +29,9 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 ```
+5. The command you provided is used to update the kubeconfig file to allow communication with an Amazon EKS cluster.
+   
+```bash
+aws eks update-kubeconfig --name dev-medium-eks-cluster --region us-east-1
+```
+
